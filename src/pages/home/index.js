@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import {Link} from "react-router-dom";
+import {Link, Route, Switch} from "react-router-dom";
 import {login1} from "../../services/user"
 
 export default class Default extends PureComponent {
@@ -17,19 +17,18 @@ export default class Default extends PureComponent {
   render() {
     return (
       <div className="g-default">
-        默认显示页
+        默认home页
         <br />
-        <Link to={`/home`}>
-          返回
-        </Link>
-        <br/>
-        <Link to={`/front`}>
-          前沿
-        </Link>
-        |
-        <Link to={`/life`}>
-          生活
-        </Link>
+        {/* <Route>
+          <Switch>
+            <Route exact path="/home" component={Home}/>
+            <Route exact path="/front" component={Front}/>
+            <Route exact path="/life" component={Life}/>
+            <Route exact path="/home" component={Home}/>
+            <Route exact component={Home}/>
+          </Switch>
+        </Route> */}
+        
       </div>
     )
   }

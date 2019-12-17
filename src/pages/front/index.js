@@ -10,7 +10,8 @@ class Father extends React.Component {
   render() {
     return (
       <div>
-  <h2>hello,{this.state.name}</h2>
+        <b>front</b><br/>
+  <span>hello,{this.state.name},</span>
         <Child name={this.state.name}/>
       </div>
     )
