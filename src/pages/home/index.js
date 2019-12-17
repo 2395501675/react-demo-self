@@ -19,13 +19,15 @@ export default class Default extends PureComponent {
       <div className="g-default">
         默认显示页
         <br />
-        <Link to={`/login`}>
+        <Link to={`/home`}>
           返回
         </Link>
-        <Link to={`/login`}>
+        <br/>
+        <Link to={`/front`}>
           前沿
         </Link>
-        <Link to={`/login`}>
+        |
+        <Link to={`/life`}>
           生活
         </Link>
       </div>

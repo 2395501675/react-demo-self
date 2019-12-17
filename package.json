@@ -35,8 +35,8 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "http://oa.adyun.com/",
   "devDependencies": {
-    "react-app-rewired": "^2.1.5"
+    "react-app-rewired": "^2.1.5",
+    "react-router-dom": "^5.1.2"
   }
 }
